@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-label="Placeholder strata image">
+  <rect width="400" height="240" fill="#ecfeff"/>
+  <text x="200" y="32" text-anchor="middle" font-size="18" fill="#0f172a" font-family="Arial" font-weight="bold">
+    Placeholder image – replace with properly sourced figure
+  </text>
+  <g>
+    <rect x="0" y="180" width="400" height="60" fill="#155e75"/>
+    <rect x="0" y="140" width="400" height="40" fill="#0ea5e9"/>
+    <rect x="0" y="100" width="400" height="40" fill="#7dd3fc"/>
+    <rect x="0" y="60" width="400" height="40" fill="#bae6fd"/>
+    <line x1="0" y1="140" x2="400" y2="120" stroke="#0f172a" stroke-width="4" stroke-dasharray="8 6"/>
+  </g>
+  <text x="40" y="115" font-size="12" fill="#0f172a" font-family="Arial">Erosional surface</text>
+</svg>

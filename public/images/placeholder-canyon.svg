@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-label="Placeholder canyon image">
+  <rect width="400" height="240" fill="#fef3c7"/>
+  <text x="200" y="30" text-anchor="middle" font-size="18" fill="#92400e" font-family="Arial" font-weight="bold">
+    Placeholder image – replace with properly sourced figure
+  </text>
+  <path d="M0 180 Q80 140 160 180 T320 180 T400 170 L400 240 L0 240 Z" fill="#f59e0b"/>
+  <path d="M0 150 Q80 110 160 150 T320 150 T400 140 L400 170 L0 180 Z" fill="#d97706"/>
+  <path d="M0 120 Q80 90 160 120 T320 120 T400 110 L400 140 L0 150 Z" fill="#b45309"/>
+  <rect x="180" y="60" width="10" height="140" fill="#6b7280"/>
+  <text x="205" y="80" font-size="12" fill="#374151" font-family="Arial">Unconformity</text>
+</svg>
