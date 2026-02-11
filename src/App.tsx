@@ -1,4 +1,5 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 import { Layout } from "./components/Layout";
 import Home from "./pages/Home";
 import RelativeDating from "./pages/RelativeDating";
@@ -9,9 +10,18 @@ import CaseStudies from "./pages/CaseStudies";
 import Glossary from "./pages/Glossary";
 import References from "./pages/References";
 
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  return null;
+};
+
 const App = () => {
   return (
     <Layout>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/relative-dating" element={<RelativeDating />} />
